@@ -14,7 +14,7 @@ Formula Dependencies
 ====================
 
 * `postgres
-<https://github.com/saltstack-formulas/postgres-formula>`_
+  <https://github.com/saltstack-formulas/postgres-formula>`_
 
 
 Available states
