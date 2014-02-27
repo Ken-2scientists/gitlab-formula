@@ -1,5 +1,34 @@
-gitlab-formula
-==============
+gitlab
+======
+
+Formula to set up and configure `GitLab<https://gilab.com/gitlab-org/gitlab-ce>`_. 
+
+.. note::
+
+    See the full `Salt Formulas installation and usage instructions
+    <http://docs.saltstack.com/topcs/conventions/formulas.html>`_.
+
+
+Formula Dependencies
+====================
+
+* `postgres<https://github.com/saltstack-formulas/postgres-formula>`_
+
+
+Available states
+================
+
+.. contents::
+    :local:
+
+``gitlab``
+----------
+
+Installs GitLab
+
+
+Original notes
+================
 
 SaltStack formula to install GitLab
 
@@ -20,3 +49,4 @@ I chose to use PostgreSQL "because", planning to make this tunable via pillar.
 I assume you're running gitlab under your node's FQDN, not under another name.
 
 Attempt made to have most settings tunable via pillars.
+
