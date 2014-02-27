@@ -1,7 +1,8 @@
 gitlab
 ======
 
-Formula to set up and configure `GitLab<https://gilab.com/gitlab-org/gitlab-ce>`_. 
+Formula to set up and configure `GitLab
+<https://gilab.com/gitlab-org/gitlab-ce>`_. 
 
 .. note::
 
@@ -12,7 +13,8 @@ Formula to set up and configure `GitLab<https://gilab.com/gitlab-org/gitlab-ce>`
 Formula Dependencies
 ====================
 
-* `postgres<https://github.com/saltstack-formulas/postgres-formula>`_
+* `postgres
+<https://github.com/saltstack-formulas/postgres-formula>`_
 
 
 Available states
